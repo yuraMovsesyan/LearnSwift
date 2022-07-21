@@ -1,4 +1,5 @@
-let a: Double = 13
-let b: Double = 3
+let User: (String, Int8, Bool) = ("Yura", 19, true)
 
-print("a + b = \(a + b)")
+print(User.0)
+print(User.1)
+print(User.2)
