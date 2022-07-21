@@ -1,5 +1,13 @@
-let User: (String, Int8, Bool) = ("Yura", 19, true)
+let a = 10, b = 15;
 
-print(User.0)
-print(User.1)
-print(User.2)
+if a == b{
+    print("a == b")
+} else if a > b{
+    print("a > b")
+} else {
+    print("a < b")
+}
+
+let c = a != b ? "ohh" : ":D"
+
+print(c)
