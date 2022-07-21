@@ -1,8 +1,4 @@
-let a: Double = 12
+let a: Double = 13
 let b: Double = 3
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
-print(10 % 6)
+print(Int(a) % Int(b))
