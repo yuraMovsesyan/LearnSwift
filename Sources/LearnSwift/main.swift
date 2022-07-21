@@ -1,6 +1,8 @@
-var a = 12
-let str: String = "Hello, world"
+let a: Double = 12
+let b: Double = 3
 
-a -= 12
-print(str)
-print(a)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(10 % 6)
