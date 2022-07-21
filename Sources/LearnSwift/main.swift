@@ -1,13 +1,14 @@
-let a = 10, b = 15;
+let User: (String, Int) = ("Yura", 19)
 
-if a == b{
-    print("a == b")
-} else if a > b{
-    print("a > b")
-} else {
-    print("a < b")
+switch User {
+
+case let (_, age) where age < 18 && age >= 7:
+    print("You're a schoolboy XD")
+case let (_, age) where age < 7:
+    print("You're a child")
+case let (_, age) where age >= 18 && age < 25:
+    print("are you a student")
+case let (name, _):
+    print("\(name) pay alements hehehe")
+    
 }
-
-let c = a != b ? "ohh" : ":D"
-
-print(c)
